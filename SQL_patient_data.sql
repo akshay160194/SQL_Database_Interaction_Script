@@ -10,7 +10,7 @@ create table patient_data(
   );
   
 
-/*Inserting values into the table created*/
+/*Inserting mock values into the table created*/
 insert into patient_data values --using insert into command
 		(456212442388,'Harsh',28,'Male','7843221590'),
 		(325618922377,'Utkarsh',34,'Male','7843442448'),
@@ -19,7 +19,7 @@ insert into patient_data values --using insert into command
 		(764874364786,'Sushma',50,'Female','7848767576'),
 		(837203489343,'Kiran',31,'Female','7545687799')
 
-/*varifing the data entry*/
+/*verifying the data entry*/
 select * from patient_data
 
 /* Extracting patient records who are above age of 30 and are females */
